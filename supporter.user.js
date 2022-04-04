@@ -11,8 +11,8 @@
 // @downloadURL  https://halfdane.github.io/rplace/supporter.user.js
 // ==/UserScript==
 
-const X_OFFSET = 773
-const Y_OFFSET = 735
+const X_OFFSET = 353
+const Y_OFFSET = 1591
 
 async function run() {
     let run = false
@@ -170,7 +170,7 @@ async function run() {
                 resolve({template_ctx: template_ctx, template_img: img})
             }
             img.onerror = reject
-            img.src = "https://rplacesuperstonk.github.io/rplace-image/reference.png?tstamp=" + Math.floor(Date.now() / 10000);
+            img.src = "https://media.discordapp.net/attachments/919009727722160129/960378871918784512/Rice_pure.png";
         })
     }
 
